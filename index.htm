@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!--The HTML document type declaration, also known as DOCTYPE , is the first line of code required in every
+ HTML or XHTML document. The DOCTYPE declaration is an instruction to the web browser about what version 
+ of HTML the page is written in. 
+ 
+ An <html> tag is a root element, holding all the content of an HTML document, and it also tells the browser 
+ that you're using HTML. The <! DOCTYPE> tag tells the browser which version of HTML you're using.
+
+ -->
+
+<html>
+<!-- An HTML tag is a piece of markup language used to indicate the beginning and end of an HTML element in 
+an HTML document. As part of an HTML element, HTML tags help web browsers convert HTML documents into web 
+pages. -->
+
+<head>
+<!--
+The head tag is an HTML element used to define the head section of an HTML document. The head section contains 
+metadata, which simply means data about data. This means information in the head tag is not displayed on the 
+page but the information is used by browsers and by search engines.
+-->
+
+<title>My CV Template</title>
+<meta charset="UTF-8">
+<!--An HTML tag that is used to indicate the web page's character encoding. In order to see the correct content, 
+the tag's function is used which let the browser know what character encoding was used in the HTML document. 
+The tag is located in the document's head.
+-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--This means any browser should render the page to the width of its own screen. Your content will adapt to 
+different devices and always look its best. You add this HTML to the <head> element of your website.-->
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- change the background color of the container-->
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<!-- font style -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Font Awesome Icons -->
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<!--Use of the <style> element to apply a simple style sheet to an HTML document
+-->
+
+</head>
+
+<body class="w3-light-grey ">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<!-- div is an HTML element that groups other elements of the page together. class is 
+an attribute. All HTML elements can carry a class attribute. If your elements have 
+a class attribute then you will be able to write a CSS rule to select that class.-->
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  <!--Container for responsive classes, with 8px left and right padding-->
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    <!-- w3-third	Occupies 1/3 of the window (on medium and large screens)
+w3-twothird	Occupies 2/3 of the window (on medium and large screens)-->
+
+      <div class="w3-white w3-text-grey w3-card-4">
+	  <!-- White w3-white -->
+	  <!--w3-card-4. It is used to add a box shadow of 4px to the element. 
+	  Example: Using different card classes in the HTML page.-->
+	  
+        <div class="w3-display-container">
+		<!--Container for w3-display-classes (enables positioning of elements inside the container)-->
+		
+          <img src="./avatar_hat.jpg" style="width:50%" alt="Avatar">
+		  <!--The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.-->
+		  <!-- <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"> -->
+		  
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+		  
+		  <!--w3-container	HTML container with 16px left and right padding -->
+            <h2>Xinxing Wu</h2>
+          </div>
+        </div>
+        <div class="w3-container ">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Teacher</p>
+		  <!-- Mark up text that is set off from the normal prose in a document -->
+		  <!-- The fa-fw class is used to set icons at a fixed width. This class is useful when different icon widths 
+		  throw off alignment. Especially useful in Bootstrap's navlists and list groups.-->
+		  <!-- w3-large, Specifies a font size of 20 pixels -->
+		  
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Lexington, USA</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>xinxingwu@mail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Spanish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div>
+	  <br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+		  <!--Adds opacity/transparency to an element (opacity: 0.6) -->
+		  
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-yellow w3-center w3-margin-top">
+<!-- The <footer> tag in HTML is used to define the footer of an HTML document. -->
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <a href="http://www.midway.edu" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <!--The inline a (anchor) element denotes a hyperlink from one web address to another.-->
+</footer>
+
+</body>
+</html>
